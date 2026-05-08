@@ -1,10 +1,10 @@
-# Claims Monitoring Dashboard
+# Complaints Monitoring Dashboard
 
-Power BI dashboard for customer claims monitoring and processing workflow tracking.
+Power BI dashboard for customer complaints monitoring and processing workflow tracking.
 
 ## Overview
 
-This dashboard provides real-time monitoring of customer claims processing in a pharmaceutical distribution company.
+This dashboard provides real-time monitoring of customer complaints processing in a pharmaceutical distribution company.
 
 It helps managers track claim status, employee workload, and processing deadlines.
 
@@ -12,8 +12,8 @@ All sensitive data (employee names, customer organizations) is anonymized for po
 
 ## Business Context
 
-Customer claims processing requires clear visibility into:
-- Current status of each claim (filing, response preparation, shipment, etc.)
+Customer complaints processing requires clear visibility into:
+- Current status of each complaint (filing, response preparation, shipment, etc.)
 - Workload distribution across team members
 - Overdue tasks and bottlenecks
 - Statistics by customer organization
@@ -25,7 +25,7 @@ This dashboard centralizes all claim data in one view and provides weekly/monthl
 The report includes four main pages:
 
 ### 1. Current Status Overview
-- Claims by stage (monitoring, filing, response preparation, shipment planned, in transit)
+- Complaints by stage (monitoring, filing, response preparation, shipment planned, in transit)
 - Weekly dynamics (backlog at start, incoming, completed, current remaining)
 - Breakdown by employee with overdue task highlighting
 
@@ -34,24 +34,24 @@ The report includes four main pages:
 - Trend tracking for longer-term performance analysis
 
 ### 3. Statistics by Customer Organization
-- Total claims per organization
-- Open claims count
-- Overdue claims
-- Claims requiring urgent response (РНП)
+- Total complaints per organization
+- Open complaints count
+- Overdue complaints
+- Complaints requiring urgent response (РНП)
 
 ### 4. Detailed Task List
-- Full claim list with filters by status
+- Full complaint list with filters by status
 - Employee assignments
 - Creation dates and deadlines
 - Overdue task tracking
 
 ## Key Metrics
 
-- **Backlog** (Было на начало периода) — claims pending at period start
-- **Incoming** (Пришло) — new claims received
-- **Completed** (Сделано) — claims resolved
-- **Remaining** (Текущий остаток) — open claims at period end
-- **Overdue** (Просрочено) — claims past deadline
+- **Backlog** (Было на начало периода) — complaints pending at period start
+- **Incoming** (Пришло) — new complaints received
+- **Completed** (Сделано) — complaints resolved
+- **Remaining** (Текущий остаток) — open complaints at period end
+- **Overdue** (Просрочено) — complaints past deadline
 
 ## Tech Stack
 
